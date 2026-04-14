@@ -1,0 +1,3 @@
+﻿feature,type,missing_before,missing_after,imputation_method
+sepal width (cm),quantitative,10,0,median
+petal_length_group,categorical,8,0,most_frequent
