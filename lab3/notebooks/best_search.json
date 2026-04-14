@@ -1,0 +1,24 @@
+{
+  "best_search": {
+    "search": "GridSearchCV",
+    "cv": "TimeSeriesSplit",
+    "best_params": {
+      "knn__n_neighbors": 7,
+      "knn__p": 1,
+      "knn__weights": "uniform"
+    },
+    "cv_mae": 6.1180592020592055
+  },
+  "baseline_metrics": {
+    "Model": "Baseline KNN (K=5)",
+    "MAE": 1.5201158749267976,
+    "RMSE": 2.6102021339920025,
+    "R2": 0.1925640743359145
+  },
+  "best_metrics": {
+    "Model": "Best tuned KNN",
+    "MAE": 1.3352951240376392,
+    "RMSE": 2.1953406661272314,
+    "R2": 0.4288323094777283
+  }
+}

@@ -1,0 +1,5 @@
+﻿Search,CV,BestParams,CV_MAE,Model,MAE,RMSE,R2
+GridSearchCV,TimeSeriesSplit,"{""knn__n_neighbors"": 7, ""knn__p"": 1, ""knn__weights"": ""uniform""}",6.1180592020592055,GridSearchCV + TimeSeriesSplit,1.3352951240376392,2.1953406661272314,0.4288323094777283
+RandomizedSearchCV,TimeSeriesSplit,"{""knn__weights"": ""distance"", ""knn__p"": 1, ""knn__n_neighbors"": 10}",6.188749561153644,RandomizedSearchCV + TimeSeriesSplit,1.3365001396728045,2.087468084953973,0.4835842530218142
+GridSearchCV,KFold,"{""knn__n_neighbors"": 2, ""knn__p"": 1, ""knn__weights"": ""distance""}",45.80232390225099,GridSearchCV + KFold,1.5760769008119306,2.6677102518431033,0.15659318969548597
+RandomizedSearchCV,KFold,"{""knn__weights"": ""uniform"", ""knn__p"": 1, ""knn__n_neighbors"": 2}",46.0110975199192,RandomizedSearchCV + KFold,1.5435329341317372,2.5780084454691354,0.21235873772176805
